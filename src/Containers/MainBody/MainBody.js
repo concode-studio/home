@@ -13,8 +13,8 @@ import {
 
 import './MainBody.css';
 
-const MainBody = () => (
-  <div class='MainBody'>
+const MainBody = ({onClickPrivacy, onClickTerms}) => (
+  <div className='MainBody'>
     <Container>
        <br/>
        <br/>
@@ -25,7 +25,7 @@ const MainBody = () => (
        </p>
        <br/>
        <br/>
-       <div class="Desc">
+       <div className="Desc">
            WE MAKE CODE<br/>
            WE MAKE GAME<br/>
            WE MAKE FUN<br/>
@@ -39,11 +39,11 @@ const MainBody = () => (
        <br/>
 
        <List horizontal divided link size='small'>
-          <List.Item as='a' href='#'>
-            Terms and Conditions
+          <List.Item>
+            <span onClick={onClickTerms}>Terms and Conditions</span>
           </List.Item>
-          <List.Item as='a' href='#'>
-            Privacy Policy
+          <List.Item>
+            <span onClick={onClickPrivacy}>Privacy Policy</span>
           </List.Item>
         </List>
 
