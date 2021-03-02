@@ -37,6 +37,10 @@ const MainBody = ({onClickPrivacy, onClickTerms}) => (
        <br/>
        <br/>
        <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
 
        <List horizontal divided link size='small'>
           <List.Item>
