@@ -12,8 +12,14 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    let lang = sb.language;
+    let param = util.getUrlParams();
+    if (param.lang !== null) {
+      lang = param.lang;
+    }
+
     this.state = {
-      language: sb.language,
+      language: lang,
     };
   }
 
@@ -31,12 +37,11 @@ class App extends Component {
   };
 
   onClickPrivacy = () => {
-    console.error("sb.lang:" + sb.lang)
-    MdBox.show("/privacy/" + sb.lang + ".md");
+    MdBox.show("/privacy/" + this.state.language + ".md");
   };
 
   onClickTerms = () => {
-    MdBox.show("/terms/" + sb.lang + ".md");
+    MdBox.show("/terms/" + this.state.language + ".md");
   };
 
   render() {
