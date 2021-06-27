@@ -9,7 +9,7 @@ class StringBundleService {
     this.load();
 
     let lang = localStorage.getItem('lang');
-    if (lang !== null) {
+    if (lang !== null && lang !== undefined) {
       this._setLang(lang);
     } else {
       this._setLang('en');

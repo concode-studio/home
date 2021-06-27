@@ -7,14 +7,15 @@ import {
 } from "./Containers";
 import sb from './Services/StringBundleService';
 import util from "./Utils/util";
+import {Container, List} from "semantic-ui-react";
 
 class App extends Component {
   constructor(props) {
     super(props);
 
-    let lang = sb.language;
+    let lang = sb.lang;
     let param = util.getUrlParams();
-    if (param.lang !== null) {
+    if (param.lang) {
       lang = param.lang;
     }
 
@@ -51,10 +52,20 @@ class App extends Component {
 
     return (
       <div className="App">
-        <MainBody
-          onClickPrivacy={this.onClickPrivacy}
-          onClickTerms={this.onClickTerms}/>
+        <MainBody/>
         <SimpleLoader/>
+        <footer>
+          <Container>
+            <List horizontal divided link size='small'>
+              <List.Item>
+                <span onClick={this.onClickTerms}>Terms and Conditions</span>
+              </List.Item>
+              <List.Item>
+                <span onClick={this.onClickPrivacy}>Privacy Policy</span>
+              </List.Item>
+            </List>
+          </Container>
+        </footer>
         <MdBox/>
       </div>
     );

@@ -2,55 +2,36 @@ import _ from 'lodash'
 import React from 'react'
 import {
   Container,
-  Divider,
-  Grid,
-  Header,
+  Label,
   Image,
-  List,
-  Menu,
-  Segment,
 } from 'semantic-ui-react'
 
 import './MainBody.css';
 
-const MainBody = ({onClickPrivacy, onClickTerms}) => (
+const MainBody = () => (
   <div className='MainBody'>
     <Container>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <p>
-       <Image size='medium' src='/Logo.png' style={{ marginRight: '1.5em' }} align='center'/>
-       </p>
-       <br/>
-       <br/>
-       <div className="Desc">
-           WE MAKE CODE<br/>
-           WE MAKE GAME<br/>
-           WE MAKE FUN<br/>
-       </div>
-       
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
+      <Image size='small' src='/Logo.png' style={{ marginRight: '1.5em' }} align='center'/>
+      <div className='Body'>
+        <div>
+          WE CODE YOUR FUN
+        </div>
 
-       <List horizontal divided link size='small'>
-          <List.Item>
-            <span onClick={onClickTerms}>Terms and Conditions</span>
-          </List.Item>
-          <List.Item>
-            <span onClick={onClickPrivacy}>Privacy Policy</span>
-          </List.Item>
-        </List>
-
+        <div className='GameList'>
+          <div>
+            <Image size='medium' src='/TheWayHome.png' style={{ marginRight: '1.5em' }} align='center'/>
+            <div className='GameTitle'>
+              The Way Home
+            </div>
+            <div className="GameDesc">
+              A rogue-like dungeon crawler
+            </div>
+              <Label as='a' color='red'>
+                  Upcoming
+              </Label>
+          </div>
+        </div>
+      </div>
     </Container>
   </div>
 )
