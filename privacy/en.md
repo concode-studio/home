@@ -7,7 +7,7 @@ This Privacy Policy applies to CONCODE's games, websites and related services, w
 ## CONTACT US
 If you have questions about data protection, or if you have any requests for resolving issues with your personal data, we encourage you to primarily contact us through the support features within each CONCODE game, so we can reply to you more quickly. Alternatively, you may contact:
 
-email: help@concode.co
+email: dev@concode.co
 
 ## THE DATA WE COLLECT
 The categories of personal data we collect depend on the Services you use, and the requirements of applicable law.
