@@ -178,4 +178,4 @@ The provisions of Sections 2.2, 2.3, 2.5, 3, 4, 5.3, 7, 8, 9, 15, 16, 17, 18, 19
 
 ### 22. Questions about the Terms
 
-If you have any questions about these terms or our Services you may contact us via Customer Center provided within the Services, or at: help@concode.co
+If you have any questions about these terms or our Services you may contact us via Customer Center provided within the Services, or at: dev@concode.co

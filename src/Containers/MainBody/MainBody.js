@@ -19,9 +19,13 @@ const MainBody = () => (
 
         <div className='GameList'>
           <div>
-            <Image size='medium' src='/TheWayHome.png' style={{ marginRight: '1.5em' }} align='center'/>
+            <a href="https://twh.concode.co">
+              <Image size='medium' src='/TheWayHome.png' style={{ marginRight: '1.5em' }} align='center'/>
+            </a>
             <div className='GameTitle'>
-              The Way Home
+              <a href="https://twh.concode.co">
+                The Way Home
+              </a>
             </div>
             <div className="GameDesc">
               A rogue-like dungeon crawler
