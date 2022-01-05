@@ -30,9 +30,6 @@ const MainBody = () => (
             <div className="GameDesc">
               A rogue-like dungeon crawler
             </div>
-              <Label as='a' color='red'>
-                  Upcoming
-              </Label>
           </div>
         </div>
       </div>
