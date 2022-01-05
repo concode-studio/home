@@ -13,9 +13,7 @@ email: dev@concode.co
 The categories of personal data we collect depend on the Services you use, and the requirements of applicable law.
 
 ### Data you provide us directly.
-* Contact information (such as name and email address)
-* Player name or tag and password
-* Profile information (such as profile photo)
+* Email address
 
 ### Data we collect automatically.
 * Data about your account and game progress, including in most cases an automatically created internal account ID
