@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "key": "about.1",
+    "ko": "한국을 베이스로 하는 작은 인디게임 스튜디오 입니다.",
+    "en": "CONCODE is a small indie game studio based in Korea."
+  },
+  {
+    "key": "about.2",
+    "ko": "기존의 게임의 문법과는 다른 레트로 감성의 게임을 만듭니다.",
+    "en": "We create games that stand out for their retro feel."
+  },
+  {
+    "key": "about.3",
+    "ko": "The Way Home으로 2021년 GooglePlay Indie Game Festival Korea 2021 Top3을 수상했습니다.",
+    "en": "The Way Home won the GooglePlay Indie Game Festival Korea 2021 Top3 in 2021."
+  }
+]

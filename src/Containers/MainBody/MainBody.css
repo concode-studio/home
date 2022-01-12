@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
+.MainNav {
+    height: 19em;
+    background-color: black;
+}
+
+.MainNav > div {
+    padding-top:10em;
+    color: white;
+}
+
 .MainBody {
     margin-top: 2em;
     font-size: 1.2em;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color:black;
+    line-height: 150%;
 }
 
 .MainBody .Desc {
@@ -13,11 +24,22 @@
 }
 
 .MainBody .Body {
-    margin: 1.5em 0em;
+    margin: 3em 0em;
 }
 
-.GameList {
-    margin: 3em 0em;
+.MainBody .Block {
+    margin: 2.5em 0em;
+}
+
+.MainBody ul {
+    padding-left: 1.8em;
+}
+
+.MainBody .HeadingImage {
+    width: 222px;
+    height: 24px;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .GameTitle {
@@ -27,7 +49,14 @@
 }
 
 .GameDesc {
-    margin: 0.25em 0em;
+    margin: 0.1em 0em;
     font-size:0.9em;
     color:gray;
+}
+
+.IconFollow {
+    width: 45px;
+    height: 45px;
+    margin-right: 0.5em;
+    margin-bottom: 3em;
 }

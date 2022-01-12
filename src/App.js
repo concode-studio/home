@@ -8,6 +8,7 @@ import {
 import sb from './Services/StringBundleService';
 import util from "./Utils/util";
 import {Container, List} from "semantic-ui-react";
+import sbService from "./Services/StringBundleService";
 
 class App extends Component {
   constructor(props) {
@@ -64,6 +65,11 @@ class App extends Component {
                 <span onClick={this.onClickPrivacy}>Privacy Policy</span>
               </List.Item>
             </List>
+          </Container>
+          <Container textAlign="center" className="langBox">
+            <p>
+              <a href="" onClick={()=>sbService.changeLang("ko")}>KO</a> | <a href="" onClick={()=>sbService.changeLang("en")}>EN</a>
+            </p>
           </Container>
         </footer>
         <MdBox/>
