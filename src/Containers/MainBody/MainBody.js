@@ -18,32 +18,31 @@ const MainBody = () => (
     </div>
     <Container className='MainBody'>
       <div className='Body'>
+        <div className="Block">
+          <Image src="/t_aboutus.png" className="HeadingImage"/>
+          <div>
+            {sbService.get('about.us')}
+          </div>
+        </div>
         <div className='Block'>
           <Image src="/t_games.png" className="HeadingImage"/>
           <div>
             <a href="https://twh.concode.co">
-              <Image size='medium' src='/TheWayHome.png' style={{ marginRight: '1.5em' }} align='center'/>
+              <Image size='medium' src='/thw.jpg' style={{ marginRight: '1.5em' }} align='center'/>
             </a>
             <div className='GameTitle'>
               <a href="https://twh.concode.co">
-                The Way Home: Pixel Roguelike
+                {sbService.get('twh')}
               </a>
             </div>
           </div>
         </div>
         <div className="Block">
-          <Image src="/t_aboutus.png" className="HeadingImage"/>
-          <div>
-            <ul>
-              <li>{sbService.get('about.1')}</li>
-              <li>{sbService.get('about.2')}</li>
-              <li>{sbService.get('about.3')}</li>
-            </ul>
-          </div>
-        </div>
-        <div className="Block">
           <Image src="/t_contact.png" className="HeadingImage"/>
           <div>
+            <a href="https://goo.gl/maps/6dvqSrYaZjr8xmdLA">
+              <img src="/map.png" className="IconFollow"/>
+            </a>
             <a href="mailto:dev@concode.co">
               <img src="/email.png" className="IconFollow"/>
             </a>
