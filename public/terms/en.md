@@ -36,7 +36,15 @@ Users shall not engage in the following when using the Service.
 
 6.2. The Company may take measures that the Company considers necessary and appropriate, if the Company acknowledges that a User is using the service in a way which violates the Terms and Conditions. However, the Company shall not be responsible for correcting or preventing such violation towards Users or others
 
-### 7. Notification and Contact
+### 7. Paid content
+7.1. Paid content purchased by a member within the game service can be used only in the game account from which the application was downloaded.
+
+7.2. The period of use of purchased paid content follows the period specified at the time of purchase. However, if the service is terminated, it will be until the announced date.
+
+### 8. Payment and refund
+8.1. The company does not directly process refund, but follows the applicable policies of the app market.
+
+### 9. Notification and Contact
 7.1. When the Company notifies or contacts Users regarding the Service, the Company may use a method that the Company considers appropriate, such as posting on the website operated by the Company.
 
 7.2. When Users notifies or contacts the Company in regard to the Service, Users shall use the customer inquiry form available on the website operated by the company or other means designated by the Company.
