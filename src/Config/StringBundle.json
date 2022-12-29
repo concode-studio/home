@@ -28,5 +28,10 @@
     "key": "address",
     "ko": "경기도 성남시 분당구 대왕판교로645번길 12, 스마트오피스 6층 8호실",
     "en": "12, Daewangpangyo-ro 645beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea"
+  },
+  {
+    "key": "blog.desc",
+    "ko": "블로그에서 개발 이야기를 만나보실 수 있습니다.",
+    "en": "You can see the development story here."
   }
 ]

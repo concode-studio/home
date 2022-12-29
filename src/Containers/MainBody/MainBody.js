@@ -37,6 +37,17 @@ const MainBody = () => (
             </div>
           </div>
         </div>
+        <div className='Block'>
+          <Image src="/t_blog.png" className="HeadingImage"/>
+          <div>
+            {sbService.get('blog.desc')}
+            <div className='GameTitle'>
+              <a href="https://teamconcode.notion.site/Team-Concode-f5604bd7d7204cf2aa9f32eeae8dd792">
+                Team Blog
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="Block">
           <Image src="/t_contact.png" className="HeadingImage"/>
           <div>
