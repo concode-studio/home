@@ -42,7 +42,7 @@ const MainBody = () => (
           <div>
             {sbService.get('blog.desc')}
             <div className='GameTitle'>
-              <a href="https://teamconcode.notion.site/Team-Concode-f5604bd7d7204cf2aa9f32eeae8dd792">
+              <a href="https://slashpage.com/concode">
                 Team Blog
               </a>
             </div>
