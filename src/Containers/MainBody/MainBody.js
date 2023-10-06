@@ -57,7 +57,7 @@ const MainBody = () => (
             <a href="mailto:dev@concode.co">
               <img src="/email.png" className="IconFollow"/>
             </a>
-            <a href="https://twitter.com/concodestudio">
+            <a href="https://twitter.com/teamconcode">
               <img src="/twitter.png" className="IconFollow"/>
             </a>
           </div>
