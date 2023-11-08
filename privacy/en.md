@@ -8,7 +8,9 @@ This Privacy Policy applies to CONCODE's games, websites and related services, w
 The company processes personal information for the following purposes. The processed personal information will not be used for purposes other than the following, and if the purpose of use is changed, necessary measures, such as obtaining separate consent in accordance with the law, will be taken.
 
 #### 1-1. Storage of Game Data and Payment Records
-Email addresses are used to store and recover game data and payment records.
+The email addresses below are collected using the OAuth method. Used to save and restore game data and payment records.
+* Apple
+* Google
 
 ## 2. Personal Information Processing and Retention Period
 When collecting customer's personal information, the company processes and retains the personal information within the agreed period of consent. However, if there is a need to retain the information according to the provisions of relevant laws, the information will be retained in accordance with those laws.
