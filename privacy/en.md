@@ -16,7 +16,6 @@ When collecting customer's personal information, the company processes and retai
 #### 2-1. Stored Game Data and Payment Records
 Customer's email addresses and payment records are retained for a period of 3 years.
 
-
 ## 3. Personal Information Destruction Procedure and Method
 When personal information being processed is no longer necessary, the data processor promptly destroys it. For electronic files, technical methods are used to securely delete them to prevent recovery and reproduction. Printed materials are shredded or incinerated for destruction.
 
