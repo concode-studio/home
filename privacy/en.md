@@ -1,6 +1,6 @@
 # PRIVACY POLICY
  
-Effective Date: March 2, 2021
+Effective Date: November 8, 2023
 
 This Privacy Policy applies to CONCODE's games, websites and related services, which we here collectively call the Service. We may periodically update this Privacy Policy by posting a new version on concode.co. If we make any material changes, we will notify you as required under applicable law, including by posting a notice in the Service prior to the change becoming effective. Your continued use of the Service after the effective date will be subject to the new Privacy Policy.
 
