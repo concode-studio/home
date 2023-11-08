@@ -33,5 +33,20 @@
     "key": "blog.desc",
     "ko": "블로그에서 개발 이야기를 만나보실 수 있습니다.",
     "en": "You can see the development story here."
+  },
+  {
+    "key": "terms",
+    "ko": "이용 약관",
+    "en": "Terms and Conditions"
+  },
+  {
+    "key": "privacy",
+    "ko": "개인정보처리방침",
+    "en": "Privacy Policy"
+  },
+  {
+    "key": "account.deletion",
+    "ko": "계정 삭제",
+    "en": "Account Deletion"
   }
 ]

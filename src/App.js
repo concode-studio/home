@@ -33,6 +33,8 @@ class App extends Component {
     let param = util.getUrlParams();
     if (param.op == 'privacy') {
       this.onClickPrivacy();
+    } else if (param.op == 'deletion') {
+      this.onClickDeletion();
     } else if (param.op == 'terms') {
       this.onClickTerms();
     }
@@ -40,6 +42,10 @@ class App extends Component {
 
   onClickPrivacy = () => {
     MdBox.show("/privacy/" + this.state.language + ".md");
+  };
+
+  onClickDeletion = () => {
+    MdBox.show("/privacy/" + this.state.language + "-deletion.md");
   };
 
   onClickTerms = () => {
@@ -59,10 +65,13 @@ class App extends Component {
           <Container>
             <List horizontal divided link size='small'>
               <List.Item>
-                <span onClick={this.onClickTerms}>Terms and Conditions</span>
+                <span onClick={this.onClickTerms}>{sbService.get('terms')}</span>
               </List.Item>
               <List.Item>
-                <span onClick={this.onClickPrivacy}>Privacy Policy</span>
+                <span onClick={this.onClickPrivacy}>{sbService.get('privacy')}</span>
+              </List.Item>
+              <List.Item>
+                <span onClick={this.onClickDeletion}>{sbService.get('account.deletion')}</span>
               </List.Item>
             </List>
           </Container>
