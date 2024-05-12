@@ -44,3 +44,9 @@ p.lead {
 .langBox {
     padding: 2em;
 }
+
+
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img, .ui.medium.images svg {
+    width: 300px;
+}
+

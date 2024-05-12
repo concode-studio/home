@@ -4,6 +4,7 @@ import {
   Container,
   Label,
   Image,
+  ImageGroup,
 } from 'semantic-ui-react'
 
 import './MainBody.css';
@@ -26,16 +27,10 @@ const MainBody = () => (
         </div>
         <div className='Block'>
           <Image src="/t_games.png" className="HeadingImage"/>
-          <div>
-            <a href="https://twh.concode.co">
-              <Image size='medium' src='/thw.jpg' style={{ marginRight: '1.5em' }} align='center'/>
-            </a>
-            <div className='GameTitle'>
-              <a href="https://twh.concode.co">
-                {sbService.get('twh')}
-              </a>
-            </div>
-          </div>
+          <ImageGroup size='medium'>
+            <Image size='medium' src='/graytail.jpg' style={{ marginRight: '1.5em' }} align='center' as='a' href='https://graytail.concode.co'/>
+            <Image size='medium' src='/thw.jpg' style={{ marginRight: '1.5em' }} align='center' as='a' href='https://twh.concode.co'/>
+          </ImageGroup>
         </div>
         <div className='Block'>
           <Image src="/t_blog.png" className="HeadingImage"/>
